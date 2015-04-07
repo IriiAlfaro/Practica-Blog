@@ -1,0 +1,49 @@
+//
+// Estilos del header
+//
+
+header {
+  height: 15em;
+  background-color: $maincolor;
+  width: 100%
+}
+
+
+.main-nav {
+  float: left;
+  width: 66%;
+  li {
+    display: inline-block;
+    padding: 0 2%;
+  }
+  li:hover{
+    background-color: $hover;
+  }
+  a {
+    color: #fff;
+  }
+}
+
+.socials {
+  float: right;
+  ul {
+    display: inline-block;
+    margin-top: 36px
+  }
+  li {
+    display: inline-block;
+  }
+  span {
+    color: #fff;
+    position: absolute;
+    right: 270px;
+    top: 143px;
+  }
+
+}
+
+.header-content {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-top: 39px;
+}

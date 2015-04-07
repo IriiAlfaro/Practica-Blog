@@ -1,0 +1,46 @@
+
+
+article {
+	padding-bottom: 66px;
+	p {
+		margin: 0;
+	}
+}
+
+time {
+	display: block;
+}
+
+
+.content {
+	max-width: $max-width;
+	margin: 0 auto;
+}
+
+.news {
+	background-color: #fff; 
+	float: left;
+	margin-top: -100px;
+	padding: 3%;
+	width: 73%;
+	img {
+		display: block;
+		padding-top: 15px;
+		width: 100%;
+	}
+	a {
+		color: $maincolor;
+	}
+}
+
+.principal-article {
+	border-bottom: 1px solid black;
+	padding-bottom: 15px; 
+}
+
+.image-new {
+	background-color: #D4D4D4;
+	float: left;
+	height: 11rem;
+	width: 14rem;
+}
