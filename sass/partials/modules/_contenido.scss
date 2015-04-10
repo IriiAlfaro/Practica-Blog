@@ -1,9 +1,13 @@
 
 
 article {
-	padding-bottom: 66px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 36px;
 	p {
 		margin: 0;
+	}
+	a {
+		color: $maincolor;
 	}
 }
 
@@ -20,21 +24,30 @@ time {
 .news {
 	background-color: #fff; 
 	float: left;
-	margin-top: -100px;
+	margin-top: -174px;
 	padding: 3%;
 	width: 73%;
 	img {
 		display: block;
-		padding-top: 15px;
+		padding: 15px 0;
 		width: 100%;
 	}
 	a {
 		color: $maincolor;
 	}
+	button {
+        background-color: #00A0A9;
+        border: none;
+        border-radius: 6px;
+        color: #fff;
+        display: block;
+        margin: 0 auto;
+        margin-top: -18px;
+        padding: 1em 4em; 
+    }
 }
 
 .principal-article {
-	border-bottom: 1px solid black;
 	padding-bottom: 15px; 
 }
 
@@ -42,5 +55,84 @@ time {
 	background-color: #D4D4D4;
 	float: left;
 	height: 11rem;
+	margin-top: 11px;
 	width: 14rem;
+}
+
+.new-article {
+	p {
+		margin: 0;
+        margin-top: 11px;
+        padding-left: 15em; 
+	}
+	a 
+	{
+		display: block;
+		margin: 1em 0 0 15em; 
+	}
+}
+
+//Estilos de las secciones del sitio
+
+.sections{
+	padding-top: 2em;
+}
+
+.subscribe-section {
+	padding-bottom: 1em;
+	input {
+		background-color: #D4D4D4;
+		border: none;
+		padding: 1%;
+		width: 15em;
+    }
+    button {
+    	background-color: #29AEDE;
+        border: none;
+        color: #fff;
+        padding: 1%;
+    }
+    p {
+    	@include font-size(8);
+    }
+}
+
+.popular-section {
+	li {
+		border-bottom: 1px solid black;
+		padding: 1.2% 0;
+    }
+    a {
+    	color: #000;
+    	@include font-size(8);
+    }
+}
+
+.advertising-section {
+  padding-top: 2em;
+}
+
+.advertising-content {
+  background-color: #D4D4D4;
+  height: 11rem;
+  float: right;
+  margin: 1.8%;
+  width: 14rem;
+}
+
+.web-section {
+	li {
+		border-bottom: 1px solid black;
+        padding: 1% 0;
+        span {
+        	color: #FF7708;
+        	display: block;
+        	padding-top: 1%; 
+        	@include font-size(8);
+        }
+    }
+    a {
+    	color: #000;
+    	@include font-size(8);
+    }
 }
